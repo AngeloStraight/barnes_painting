@@ -33,11 +33,14 @@ p{
 }
   
 .container-painting{
-    margin-top: 100px;
-    display: grid | inline-grid;
-    /* grid-template-columns: repeat(3, 1fr); */
+    /* margin-top: 100px; */
+    width: 80%;
+    position: relative;
+    padding-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 25px;
-    grid-row-gap: 25px;
+    /* grid-row-gap: 25px; */
 }
 
 .container-painting > div img {
