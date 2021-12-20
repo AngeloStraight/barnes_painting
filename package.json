@@ -1,0 +1,36 @@
+{
+  "name": "barnes_painting",
+  "version": "1.0.0",
+  "description": "Web App for Melvin Barnes",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngeloStraight/barnes_painting.git"
+  },
+  "author": "Angelo Straight",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngeloStraight/barnes_painting/issues"
+  },
+  "homepage": "https://github.com/AngeloStraight/barnes_painting#readme",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.1.2",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.15"
+  }
+}

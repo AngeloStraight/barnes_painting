@@ -1,0 +1,58 @@
+p{
+    margin: 10px 0 !important;
+}
+
+.login-frame {
+    width: 800px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.login-container{
+    width: 400px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.login-melvin{
+    width: 400px;
+    margin-top: 50px;
+    text-align: center;
+    float: left;
+}
+
+.fa-small {
+    font-size: 16px !important;
+}
+
+.btn-float {
+    float: left;
+    margin-right: 10px;
+
+}
+  
+.container-painting{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.container-painting > div img {
+    max-width: 100%;
+  }
+
+
+.page-footer{
+    color: black;
+}
+
+/* img {
+    border-radius: 50%;
+  }
+
+.img-small {
+    width: 180px;
+} */
