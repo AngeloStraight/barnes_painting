@@ -49,10 +49,12 @@ p{
     color: black;
 }
 
-/* img {
-    border-radius: 50%;
-  }
-
-.img-small {
-    width: 180px;
-} */
+.cardtest {
+    width: 130px;
+    height: 195px;
+    background: url("images/stairs_after.JPG") no-repeat;
+    display: inline-block;
+}
+.cardtest:hover {
+    background: url("images/stairs_before.JPG") no-repeat;
+}
